@@ -10,8 +10,13 @@ body {
 /* Estilos menu */
 #menu-flex {
     display: flex;
+    position: fixed;
     border-bottom: solid white 1px;
-    padding: 15px;
+    background-color: black;
+    width: 100%;
+    z-index: 100;  
+    padding: 25px;
+    top: 0px;
     justify-content: space-around;
 }
 #menu-flex img {
@@ -44,29 +49,28 @@ section {
     margin-top: 5%;
 }
 
-#logos-container {
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
-    margin-top: 20px;
-}
-.logo svg {
-    width: 80px;
-    height: 100px;
-}
+
 /* estilo de introdução */
+#introducao {
+    margin-top: 8%;
+}
 #introducao p {
     margin-top: 1%;
     width: 50%;
 }
 /* estilo de sobre-mim  */
+#sobre-mim {
+    height: 450px;
+}
 #sobre-mim p {
     margin-top: 3%;
 }
 #conteudo {
     margin-top: 0%;
-    background: linear-gradient(to bottom,#2d82b734,#161616) ;
+    background-color: #2d82b734 ;
     padding: 3%;
+    height: 100%;
+    max-height: 250px;
     width: 50%;
     border-radius: 10px;
 }
@@ -96,7 +100,7 @@ section {
     border-radius: 10px;
 }
 #controle button {
-    padding: 2px;
+    padding: 3px;
     width: 50px;
     height: 5px;
     background-color: #2c2828;
@@ -105,6 +109,50 @@ section {
 #controle .ativo {
     background-color:  rgb(119, 119, 179);
 }
+/*  estilo de skills */
+
+#logos-container {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 20px;
+}
+.logo svg {
+    width: 80px;
+    height: 100px;
+}
+
+.logo .progresso {
+    padding: 1px;
+    /* background-color: #2c2828; */
+    border-radius: 10px;
+    width: 100px;
+    height: 3px;
+    border-radius: 10px;
+}
+.html {
+    background-image: linear-gradient(to right, rgb(153, 122, 66) 90%, #2c2828 10%);
+}
+.css {
+    background-image: linear-gradient(to right, rgb(119, 119, 170) 90%, #2c2828 10%);
+}
+.js {
+    background-image: linear-gradient(to right,yellow 60%, #2c2828 40%);
+    
+}
+.react {
+    background-image: linear-gradient(to left, #2c2828 60%,rgb(97, 97, 114) 40% );
+}
+.mysql {
+    background-image: linear-gradient(to left, #2c2828 60%,rgb(75, 68, 68) 40% );
+}
+.java {
+     background-image: linear-gradient(to left,#2c2828 60% , red 40% );
+}
+.spring {
+    background-image: linear-gradient(to left, #2c2828 70%,green 30% );
+}
+
 /*  estilo de projetos */
 #projetos-container {
     display: grid;
