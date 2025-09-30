@@ -10,7 +10,7 @@ Um portfólio simples que apresenta informações básicas sobre mim e direciona
  - **Rodapé:** contém links que direcionam para minhas informações de contato, incluindo telefone, e-mail (Gmail), GitHub e LinkedIn.
 
 ## Imagem do portofio:
-![Preview do Portfólio](./img/ImagemDoPortifolio.png)
+![Preview do Portfólio](imgs/ImagemDoPortifolio.png)
 
 
 
@@ -38,3 +38,4 @@ $ cd me
 </table>
 
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
+
